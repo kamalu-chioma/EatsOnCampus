@@ -1,6 +1,7 @@
-import { Food } from './app/components/shared/models/food';
-
-export const sample_foods: Food[] = [
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.sample_foods = void 0;
+exports.sample_foods = [
     {
         id: '1',
         name: 'Grilled Salmon',
@@ -111,6 +112,4 @@ export const sample_foods: Food[] = [
         origins: ['Nigeria', 'Lagos'],
         cookTime: '20 minutes'
     }
-
-
 ];
