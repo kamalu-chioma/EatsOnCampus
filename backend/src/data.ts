@@ -1,6 +1,5 @@
-import { Food } from './app/components/shared/models/food';
 
-export const sample_foods: Food[] = [
+export const sample_foods: any[] = [
     {
         id: '1',
         name: 'Grilled Salmon',
@@ -55,7 +54,7 @@ export const sample_foods: Food[] = [
         imageUrl: 'assets/chocolate-cake.PNG',
         origins: ['France', 'Belgium'],
         cookTime: '30 minutes'
-    },
+    }, 
     {
         id: '6',
         name: 'Eba, Okra and Fish',
@@ -111,6 +110,21 @@ export const sample_foods: Food[] = [
         origins: ['Nigeria', 'Lagos'],
         cookTime: '20 minutes'
     }
-
-
 ];
+
+export const sample_users: any[] = [
+    {
+      name: 'Chioma Kamalu',
+      email: 'chioma@gmail.com',
+      password: '12345',
+      address: 'Toronto On',
+      isAdmin: true,
+    },
+    {
+      name: 'Adekunle Omonihi',
+      email: 'Ade@gmail.com',
+      password: '12345',
+      address: 'Toronto On',
+      isAdmin: false,
+    },
+  ];
